@@ -1,4 +1,7 @@
 roadmap.sh
 
-Explicação e acompanhamento do mapa "Frontend Developer
+Explicação e acompanhamento do mapa "Frontend"
+Explicação e acompanhamento do mapa "Backend"
+Explicação e acompanhamento do mapa "DevOps"
+
   Recomendação de utilizar o mapa como guia
