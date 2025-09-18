@@ -5,6 +5,7 @@ HTTP: O Protocolo
   Transferência de Dados: (Habilita o envio e recebimento de informações na web)
   Acesso a Recursos: (Permite que você acesse páginas web, imagens, vídeos e outros arquivos)
 
+
 Modelo Cliente-Servidor
   Cliente:
     O navegador web envia requesições ao servidor
@@ -12,10 +13,29 @@ Modelo Cliente-Servidor
   Servidor:
     O servidor armazena os arquivos da página web e os envia ao cliente
 
+
 Requesição usa comandos:
-  GET: Obter dados
-  POST: Enviar dados para o servidor
+  GET: Obter dados de um recurso
+  POST: Enviar dados para o servidor (formularios, uploads)
   PUT: Atualizar ou criar um recurso no sevirdo
   DELETE: Excluir um recurso do servidor
 
-Se o servidor não conseguir lidar com a informação ele permitirar vocÊ fazer o dowload para executar em outra ferramenta
+Se o servidor não conseguir lidar com a informação ele permitirar você fazer o dowload para executar em outra ferramenta
+
+
+Códigos de status HTTP:
+  200 OK:
+    A requesição foi bem-sucedida
+  302 Found:
+    O recurso foi achado em outro local
+  404 Not Found:
+    O recurso solicitao não foi encontrado
+  500 Internal Server Error:
+    Ocorreu um erro no servidor
+
+
+Cookies:
+  Pequenos arquivos de texto armazenados no navegador do usúario
+
+Sessões:
+  Dados armazenados no servidor durante a sessão do usuário
