@@ -36,6 +36,5 @@ Códigos de status HTTP:
 
 Cookies:
   Pequenos arquivos de texto armazenados no navegador do usúario
-
 Sessões:
   Dados armazenados no servidor durante a sessão do usuário
