@@ -1,0 +1,6 @@
+HTTP: O Protocolo
+  É o protocolo que permite a comunicação entre navegadores web e servidores, Defenindo regras para trocar informaçã
+
+  Comunicação Padronizada: (garante o entendemento entre servidores e navegadores)
+  Transferência de Dados: (Habilita o envio e recebimento de informações na web)
+  Acesso a Recursos: (Permite que você acesse páginas web, imagens, vídeos e outros arquivos)
