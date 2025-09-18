@@ -4,3 +4,18 @@ HTTP: O Protocolo
   Comunicação Padronizada: (garante o entendemento entre servidores e navegadores)
   Transferência de Dados: (Habilita o envio e recebimento de informações na web)
   Acesso a Recursos: (Permite que você acesse páginas web, imagens, vídeos e outros arquivos)
+
+Modelo Cliente-Servidor
+  Cliente:
+    O navegador web envia requesições ao servidor
+
+  Servidor:
+    O servidor armazena os arquivos da página web e os envia ao cliente
+
+Requesição usa comandos:
+  GET: Obter dados
+  POST: Enviar dados para o servidor
+  PUT: Atualizar ou criar um recurso no sevirdo
+  DELETE: Excluir um recurso do servidor
+
+Se o servidor não conseguir lidar com a informação ele permitirar vocÊ fazer o dowload para executar em outra ferramenta
