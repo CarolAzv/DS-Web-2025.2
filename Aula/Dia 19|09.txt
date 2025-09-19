@@ -1,1 +1,14 @@
+Estilo Arquitetural (MVT) - os elementos de visão (view)
 
+Agenda do dia
+1 Estilo MTV e Django
+2 Configurando o ambiente e criando uma aplicação
+3 Verificando a execução e estrutura da aplicação
+4 Criar a primeira View
+5 Testar o funcionamento da aplicação
+
+Estilo MTV (Model-View-Template)
+  Model
+    -Mapea e gerencia os dados da aplicação, conectando com o banco de dados e definindo regras de negócio associadas aos dados
+  Template
+    -Apresentação visual das informações. É a camada responsavel pelo HTML e exibir os dados de forma interativa e visualmente amigável ao usuário
