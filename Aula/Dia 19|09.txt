@@ -1,14 +1,38 @@
 Estilo Arquitetural (MVT) - os elementos de visão (view)
 
 Agenda do dia
-1 Estilo MTV e Django
+1 Estilo MTV e Django X
 2 Configurando o ambiente e criando uma aplicação
 3 Verificando a execução e estrutura da aplicação
 4 Criar a primeira View
 5 Testar o funcionamento da aplicação
 
+
 Estilo MTV (Model-View-Template)
   Model
     -Mapea e gerencia os dados da aplicação, conectando com o banco de dados e definindo regras de negócio associadas aos dados
+View
+    -Controla o fluxo de aplicação. Onde ´eimplementada a lógica de processamento das requisições do usuário, conectando o modelo de dados e os templates para gerar a resposta adequada.
   Template
     -Apresentação visual das informações. É a camada responsavel pelo HTML e exibir os dados de forma interativa e visualmente amigável ao usuário
+Ordem de funcionamento
+    -View processa a requisição do usuário, utiliza o Model para obter ou manipular os dados e o Template renderiza o navegador
+
+
+Django
+  -Flamework de Alto nível para python que implementa o estilo MVT
+
+  Batteries included
+    -Traz autenticação, ORM, formulários, admin, internacionalização, cache, etc.
+  Segurança embutida
+    -Proteção contra CSRF, XSS, SQL,Injection, Clickjacking
+  Escalabilidade e robustez
+    -Usando em sites de alto tráfego como Instagram e Pinterest
+  Comunidade ative
+    -Extensa documentação, pacotes e suportes
+
+  Ciclo de um requisição
+    -Request chega via URLconf
+    -View processa a lógica e acessa o Model se necessário
+    -Dados são redenrizados em um Template
+    -Response é enviado ao cliente
