@@ -1,1 +1,11 @@
 Explicação da função html form
+
+<form id="imc-form"  action="calcular/"> <!--action da um url onde as informações iram"-->
+
+
+<div class="box">
+    <p><strong>Peso:</strong> {{ peso }} kg</p>  <!--isso ({{peso}}) é linguagem de template do djangle-->
+    <p><strong>Altura:</strong> {{ altura }} m</p>
+    <p><strong>IMC:</strong> {{ imc }}</p>
+    <p><strong>Classificação:</strong> {{ class }}</p>
+</div>
