@@ -9,3 +9,6 @@ Explicação da função html form
     <p><strong>IMC:</strong> {{ imc }}</p>
     <p><strong>Classificação:</strong> {{ class }}</p>
 </div>
+
+Atividade criar uma enquete com 4 opções em que vc pode votar, sem banco de dados
+    *recomendado procurar como usar for em template 
